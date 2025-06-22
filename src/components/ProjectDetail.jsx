@@ -10,7 +10,7 @@ const ProjectDetails = ({
     closeModal,
 }) => {
     return (
-        <div className="fixed inset-0 z-50 flex items-center justify-center w-full h-full px-4 overflow-y-auto backdrop-blur-sm">
+        <div className="fixed inset-0 z-50 flex items-center justify-center w-full h-full px-4 overflow-y-scroll md:overflow-y-auto backdrop-blur-sm">
             <motion.div
                 className="relative w-full max-w-2xl border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
                 initial={{ opacity: 0, scale: 0.5 }}
@@ -34,10 +34,10 @@ const ProjectDetails = ({
                 {/* Content */}
                 <div className="p-4 sm:p-6">
                     <h5 className="mb-2 text-xl sm:text-2xl font-bold text-white">{title}</h5>
-                    <p className="mb-3 text-sm sm:text-base font-normal text-neutral-400">{description}</p>
+                    <p className="mb-2 md:mb-3 text-sm sm:text-base font-normal text-neutral-400">{description}</p>
 
                     {subDescription.map((subDesc, index) => (
-                        <p key={index} className="mb-2 text-sm sm:text-base font-normal text-neutral-400">
+                        <p key={index} className="mb-1 md:mb-2 text-sm sm:text-base font-normal text-neutral-400">
                             {subDesc}
                         </p>
                     ))}
