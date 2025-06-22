@@ -30,11 +30,6 @@ export const myProjects = [
         name: "Node",
         path: "/assets/logos/node.png",
       },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
     ],
   },
   {
@@ -92,7 +87,7 @@ export const myProjects = [
       "Applied tailwind-merge and clsx for clean, scalable styling logic.",
       "Showcases personal projects, skills, and experience with immersive visuals."
     ],
-    href: "https://github.com/Anshu147/LLM",
+    href: "https://github.com/Anshu147/Portfolio",
     logo: "",
     image: "/assets/projects/portfolio.png",
     tags: [
