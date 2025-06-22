@@ -30,6 +30,11 @@ export const myProjects = [
         name: "Node",
         path: "/assets/logos/node.png",
       },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
     ],
   },
   {
@@ -67,11 +72,6 @@ export const myProjects = [
         id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
-      },
-      {
-        id: 5,
-        name: "Cloudinary",
-        path: "/assets/logos/cloudinary.svg"
       }
     ],
   },
